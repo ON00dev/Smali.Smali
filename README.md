@@ -1,6 +1,6 @@
-# APK-to-Python Magic Converter 🪄
+# DPY-APK 🪄
 
-Welcome to the **APK-to-Python Magic Converter** repository! This project is your one-stop-shop for transforming APK files into Python code, with a sprinkle of C and Smali magic along the way. Say goodbye to manual decompiling and converting, and let this script do the heavy lifting for you.
+Welcome to the **DPY-APK** repository! This project is your one-stop-shop for transforming APK files into Python code, with a sprinkle of C and Smali magic along the way. Say goodbye to manual decompiling and converting, and let this script do the heavy lifting for you.
 
 ## What's Inside the Cauldron? 🧙‍♂️
 
