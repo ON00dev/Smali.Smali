@@ -2,6 +2,8 @@
 
 Welcome to the **DPY-APK** repository! This project is your one-stop-shop for transforming APK files into Python code, with a sprinkle of C and Smali magic along the way. Say goodbye to manual decompiling and converting, and let this script do the heavy lifting for you.
 
+![Minha Imagem](https://github.com/ON00dev/DPY-APK/blob/main/tools/Img_exemple_Terminal.PNG)
+
 ## What's Inside the Cauldron? 🧙‍♂️
 
 1. **Extract APK Files**: Unzip your APK and delve into its inner secrets.
@@ -64,7 +66,7 @@ This repository is intended for educational and ethical purposes only. Please en
 
 ## License
 
-This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
