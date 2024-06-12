@@ -69,7 +69,7 @@ def unzip_apk(apk_path: str, output_dir: str) -> None:
 
 def decompile_dex_to_smali(dex_path: str, output_dir: str) -> None:
     create_output_dir(output_dir)
-    command = ['java', '-jar', './tools/baksmali.jar', 'd', dex_path, '-o', output_dir]
+    command = ['java', '-jar', './utils/baksmali.jar', 'd', dex_path, '-o', output_dir]
     logging.debug(f"Running command: {' '.join(command)}")
     try:
         result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
