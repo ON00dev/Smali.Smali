@@ -21,8 +21,8 @@ Welcome to the **DPY-APK** repository! This project is your one-stop-shop for tr
 2. **Run the Magic**:
    - Clone the repository.
    - Install the required packages: `pip install -r requirements.txt`.
-   - Place `baksmali.jar` in the same directory as the script.
-   - Run the script: `python apk_to_python.py`.
+   - Keep `baksmali.jar` in the directory `./tools`.
+   - Run the script: `python3 dpy_apk.py`.
    - Follow the interactive prompts to guide your transformation journey.
 
 3. **Marvel at the Results**:
