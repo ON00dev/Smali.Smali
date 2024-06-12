@@ -20,6 +20,23 @@ elif operacional_sys =="nt":
 else:
     print(Fore.RED+"Operating System not supported."+Fore.RESET)
 
+print(Fore.BLUE+'''
+    8888888b.  8888888b. Y88b   d88P             d8888 8888888b.  888    d8P  
+    888  "Y88b 888   Y88b Y88b d88P             d88888 888   Y88b 888   d8P   
+    888    888 888    888  Y88o88P             d88P888 888    888 888  d8P    
+    888    888 888   d88P   Y888P             d88P 888 888   d88P 888d88K     
+    888    888 8888888P"     888             d88P  888 8888888P"  8888888b    
+    888    888 888           888    888888  d88P   888 888        888  Y88b   
+    888  .d88P 888           888           d8888888888 888        888   Y88b  
+    8888888P"  888           888          d88P     888 888        888    Y88b 
+                                                                              
+-------------------------------------------------------------------------------- 
+  
+    [☆]Developed by ON00dev
+    [☆]Github: https://github.com/ON00dev
+    
+--------------------------------------------------------------------------------    
+''')
 # Configure o logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
