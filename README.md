@@ -64,7 +64,7 @@ This repository is intended for educational and ethical purposes only. Please en
 
 ## License
 
-This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
