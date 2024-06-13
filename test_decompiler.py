@@ -1,10 +1,12 @@
-import unittest
-from unittest.mock import patch, MagicMock
-import subprocess
-import os
-import SmaliSmali
-import logging
-
+try:
+    import unittest
+    from unittest.mock import patch, MagicMock
+    import subprocess
+    import os
+    import SmaliSmali
+    import logging
+except Exception as e:
+    print(f"Error in --> {e}")
 class TestDecompiler(unittest.TestCase):
 
     @classmethod
