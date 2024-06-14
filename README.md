@@ -2,7 +2,7 @@
 
 Welcome to the **Smali.Smali** repository! This project is your one-stop-shop for decompiling APK files and extracting Smali code from `classes.dex` files for modifications. Say goodbye to manual decompiling, and let this script do the heavy lifting for you.
 
-![Example Image](https://github.com/ON00dev/Smali.Smali/blob/main/tools/Img_exemple_Terminal.PNG)
+![Example Image](https://github.com/ON00dev/Smali.Smali/blob/main/utils/Img_exemple_Terminal.PNG)
 
 ## What's Inside the Cauldron? 🧙‍♂️
 
