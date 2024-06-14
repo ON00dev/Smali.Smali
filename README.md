@@ -12,6 +12,7 @@ Welcome to the **Smali.Smali** repository! This project is your one-stop-shop fo
 ## Run the Repo. ✨
 
 - Clone the repository: `git clone https://github.com/ON00dev/Smali.Smali.git`
+- Go to the directory: `cd Samli.Smali`
 - Install the required packages: `pip install -r requirements.txt`.
 - Keep `baksmali-2.5.2.jar` in the directory `./tools`.
 - Run the script: `python3 SmaliSmali.py`.
