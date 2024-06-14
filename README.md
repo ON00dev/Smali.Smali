@@ -11,13 +11,13 @@ Welcome to the **Smali.Smali** repository! This project is your one-stop-shop fo
 
 ## Run the Repo. ✨
 
-Clone the repository: `git clone https://github.com/ON00dev/Smali.Smali.git`
-Install the required packages: `pip install -r requirements.txt`.
-Keep `baksmali-2.5.2.jar` in the directory `./tools`.
-Run the script: `python3 SmaliSmali.py`.
-Follow the interactive prompts to guide your transformation journey.
+- Clone the repository: `git clone https://github.com/ON00dev/Smali.Smali.git`
+- Install the required packages: `pip install -r requirements.txt`.
+- Keep `baksmali-2.5.2.jar` in the directory `./tools`.
+- Run the script: `python3 SmaliSmali.py`.
+- Follow the interactive prompts to guide your transformation journey.
 
-## Marvel at the Results.
+## Get the Results.
 
 Your APK will be unzipped.
 Smali code will be extracted and optionally saved.
