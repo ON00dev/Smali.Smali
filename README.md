@@ -4,28 +4,23 @@ Welcome to the **Smali.Smali** repository! This project is your one-stop-shop fo
 
 ![Example Image](https://github.com/ON00dev/Smali.Smali/blob/main/utils/Img_exemple_Terminal.PNG)
 
-## What's Inside the Cauldron? 🧙‍♂️
+## What does the Repo do? ✨
 
 1. **Extract APK Files**: Unzip your APK and delve into its inner secrets.
 2. **Decompile DEX to Smali**: Break down those `.dex` files into readable Smali code.
 
-## How to Use the Spellbook 🪄📜
+## Run the Repo. ✨
 
-1. **Prepare your ingredients**:
-   - An APK file.
-   - `baksmali.jar` for decompiling DEX to Smali.
-   - The Python packages: `colorama`.
+Clone the repository: `git clone https://github.com/ON00dev/Smali.Smali.git`
+Install the required packages: `pip install -r requirements.txt`.
+Keep `baksmali-2.5.2.jar` in the directory `./tools`.
+Run the script: `python3 SmaliSmali.py`.
+Follow the interactive prompts to guide your transformation journey.
 
-2. **Run the Magic**:
-   - Clone the repository.
-   - Install the required packages: `pip install -r requirements.txt`.
-   - Keep `baksmali.jar` in the directory `./tools`.
-   - Run the script: `python3 smali_smali.py`.
-   - Follow the interactive prompts to guide your transformation journey.
+## Marvel at the Results.
 
-3. **Marvel at the Results**:
-   - Your APK will be unzipped.
-   - Smali code will be extracted and optionally saved.
+Your APK will be unzipped.
+Smali code will be extracted and optionally saved.
 
 ## Example Smali Code 📝
 
@@ -42,7 +37,7 @@ Here's a sneak peek of what Smali code looks like before it morphs into somethin
 .end method
 ```
 
-## Contribute to the Magic ✨
+## Contribute to the Repo ✨
 
 Found a bug? Have a feature request? Want to improve the spell? Feel free to open an issue or submit a pull request. Contributions are always welcome!
 
@@ -56,6 +51,6 @@ This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE
 
 ---
 
-Happy Decompiling! 🧙‍♂️✨
+Happy Decompiling! ✨
 
 Enjoy exploring the enchanted world of APK decompilation and Smali code extraction with Smali.Smali.
