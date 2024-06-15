@@ -9,19 +9,24 @@ Welcome to the **Smali.Smali** repository! This project is your one-stop-shop fo
 1. **Extract APK Files**: Unzip your APK and delve into its inner secrets.
 2. **Decompile DEX to Smali**: Break down those `.dex` files into readable Smali code.
 
-## Run the Repo. ✨
+## Getting Started ✨
 
 - Clone the repository: `git clone https://github.com/ON00dev/Smali.Smali.git`.
 - Go to the directory: `cd Samli.Smali`.
 - Install the required packages: `pip install -r requirements.txt`.
-- Make sure you have the `unzip` tool installed.
 - Run the script: `python3 SmaliSmali.py`.
-- Follow the interactive prompts to guide your transformation journey.
+- Follow the interactive prompts to guide your journey.
 
 ## Get the Results.
 
 Your APK will be unzipped.
 Smali code will be extracted and optionally saved.
+
+## Requirements
+
+- python3
+- unzip
+- java
 
 ## Example Smali Code 📝
 
