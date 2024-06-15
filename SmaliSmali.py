@@ -4,6 +4,7 @@ import subprocess
 import os
 import sys
 import logging
+import time
 from typing import Optional
 from colorama import init, Fore
 
@@ -45,12 +46,14 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 
 def verify_file_path(file_path: str) -> None:
     logging.debug(f"Verifying file path: {file_path}")
+    time.sleep(5)
     if not os.path.isfile(file_path):
         logging.error(f"{Fore.RED}File not found: {file_path}")
         raise FileNotFoundError(f"File not found: {file_path}")
 
 def create_output_dir(output_dir: str) -> None:
     logging.debug(f"Creating output directory: {output_dir}")
+    time.sleep(5)
     if not os.path.exists(output_dir):
         try:
             os.makedirs(output_dir)
@@ -71,6 +74,8 @@ def unzip_apk(apk_path: str, output_dir: str) -> None:
         raise RuntimeError(f"Error extracting APK: {e}")
 
 def decompile_dex_to_smali(dex_path: str, output_dir: str) -> None:
+    print(Fore.YELLOW+Style.BRIGHT+"\n	Starting decompiling .dex to .smali  ...")
+    time.sleep(5)
     create_output_dir(output_dir)
     baksmali_jar_path = './utils/baksmali-2.5.2.jar'
     verify_file_path(baksmali_jar_path)
@@ -85,7 +90,7 @@ def decompile_dex_to_smali(dex_path: str, output_dir: str) -> None:
 
 if __name__ == "__main__":
     apk_path: str = input("Enter the path to the APK file: ").strip()
-
+	
     if not apk_path:
         logging.critical(f"{Fore.RED}APK path cannot be empty.")
         sys.exit(1)
@@ -108,7 +113,7 @@ if __name__ == "__main__":
         decompile_dex_to_smali(dex_path, smali_output_dir)
         
         # Finalizar Programa
-        print(Fore.GREEN+"\nSmali Extraction Completed!")
+        print(Fore.YELLOW+Style.BRIGHT+"\n	☆ Smali Extraction Completed! ☆")
 
     except FileNotFoundError as e:
         logging.critical(f"{Fore.RED}{e}")
