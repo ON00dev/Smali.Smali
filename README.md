@@ -4,7 +4,7 @@ Welcome to the **Smali.Smali** repository! This project is your one-stop-shop fo
 
 ![Example Image](https://github.com/ON00dev/Smali.Smali/blob/main/utils/Img_exemple_Terminal.PNG)
 
-## What does the Repo do? ✨
+## What does this tool do? ✨
 
 1. **Extract APK Files**: Unzip your APK and delve into its inner secrets.
 2. **Decompile DEX to Smali**: Break down those `.dex` files into readable Smali code.
@@ -43,7 +43,7 @@ Here's a sneak peek of what Smali code looks like before it morphs into somethin
 .end method
 ```
 
-## Contribute to the Repo ✨
+## Contribute to this tool ✨
 
 Found a bug? Have a feature request? Want to improve the spell? Feel free to open an issue or submit a pull request. Contributions are always welcome!
 
