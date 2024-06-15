@@ -6,7 +6,7 @@ import sys
 import logging
 import time
 from typing import Optional
-from colorama import init, Fore
+from colorama import init, Fore, Style
 
 # Inicialize o colorama
 init(autoreset=True)
@@ -46,14 +46,14 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %
 
 def verify_file_path(file_path: str) -> None:
     logging.debug(f"Verifying file path: {file_path}")
-    time.sleep(5)
+    time.sleep(3)
     if not os.path.isfile(file_path):
         logging.error(f"{Fore.RED}File not found: {file_path}")
         raise FileNotFoundError(f"File not found: {file_path}")
 
 def create_output_dir(output_dir: str) -> None:
     logging.debug(f"Creating output directory: {output_dir}")
-    time.sleep(5)
+    time.sleep(3)
     if not os.path.exists(output_dir):
         try:
             os.makedirs(output_dir)
@@ -75,7 +75,7 @@ def unzip_apk(apk_path: str, output_dir: str) -> None:
 
 def decompile_dex_to_smali(dex_path: str, output_dir: str) -> None:
     print(Fore.YELLOW+Style.BRIGHT+"\n	Starting decompiling .dex to .smali  ...")
-    time.sleep(5)
+    time.sleep(3)
     create_output_dir(output_dir)
     baksmali_jar_path = './utils/baksmali-2.5.2.jar'
     verify_file_path(baksmali_jar_path)
@@ -124,3 +124,4 @@ if __name__ == "__main__":
     except Exception as e:
         logging.critical(f"{Fore.RED}Unexpected error: {e}")
         sys.exit(1)
+s
