@@ -124,4 +124,3 @@ if __name__ == "__main__":
     except Exception as e:
         logging.critical(f"{Fore.RED}Unexpected error: {e}")
         sys.exit(1)
-s
