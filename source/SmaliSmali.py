@@ -77,7 +77,7 @@ def decompile_dex_to_smali(dex_path: str, output_dir: str) -> None:
     print(Fore.YELLOW+Style.BRIGHT+"\n	Starting decompiling .dex to .smali  ...")
     time.sleep(3)
     create_output_dir(output_dir)
-    baksmali_jar_path = './utils/baksmali-2.5.2.jar'
+    baksmali_jar_path = '../utils/baksmali-2.5.2.jar'
     verify_file_path(baksmali_jar_path)
     command = ['java', '-jar', baksmali_jar_path, 'd', dex_path, '-o', output_dir]
     logging.debug(f"Running command: {' '.join(command)}")
