@@ -59,4 +59,6 @@ This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE
 
 Happy Decompiling! ✨
 
-Enjoy exploring the enchanted world of APK decompilation and Smali code extraction with Smali.Smali.
+Enjoy exploring the enchanted world of APK decompilation and Smali code extraction with Smali.Smali
+.
+.
