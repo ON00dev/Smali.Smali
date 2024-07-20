@@ -1,4 +1,4 @@
-# Smali.Smali 🪄 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Smali.svg" alt="windows" width="48">
+# Smali.Smali 🪄 <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/AndroidStudio-Light.svg" alt="smali" width="48">
 
 Welcome to the **Smali.Smali** repository! This project is your one-stop-shop for decompiling APK files and extracting Smali code from `classes.dex` files for modifications. Say goodbye to manual decompiling, and let this script do the heavy lifting for you.
 
